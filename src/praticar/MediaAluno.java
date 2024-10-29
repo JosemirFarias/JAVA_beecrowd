@@ -10,7 +10,11 @@ public class MediaAluno {
         // Leitura das três notas com uma casa decimal
         System.out.println("Digite a primeira nota: ");
         double A = scanner.nextDouble();
+        
+        System.out.println("Digite a segunda nota: ");
         double B = scanner.nextDouble();
+        
+        System.out.println("Digite a terceira nota: ");
         double C = scanner.nextDouble();
 
         // Cálculo da média ponderada
